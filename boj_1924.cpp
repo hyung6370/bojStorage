@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int month_day[] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
-char* str_day[] = { "SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT" };
+int month_day[12] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+string str_day[7] = { "SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT" };
 int total_day = 0;
 
 void getDayName(int month, int day) {
