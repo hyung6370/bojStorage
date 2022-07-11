@@ -19,7 +19,6 @@ public class Main {
 				}
 			}
 		}
-		
 		System.out.println(arr[num][0] % 10007);
 	}	
 }
